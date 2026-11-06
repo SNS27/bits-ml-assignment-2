@@ -22,7 +22,7 @@ compared on the same hold-out set and served through an interactive Streamlit ap
 ## c. GitHub repository
 https://github.com/SNS27/bits-ml-assignment-2
 
-Live app: <PASTE STREAMLIT URL>
+Live app: https://student-outcome-predictor-shaleen-sharma.streamlit.app/
 
 ## d. Models used
 
