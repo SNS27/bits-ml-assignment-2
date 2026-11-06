@@ -1,0 +1,73 @@
+{
+  "target": "Target",
+  "classes": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "raw_features": [
+    "Marital Status",
+    "Application mode",
+    "Application order",
+    "Course",
+    "Daytime/evening attendance",
+    "Previous qualification",
+    "Previous qualification (grade)",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Admission grade",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "Age at enrollment",
+    "International",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "Curricular units 2nd sem (credited)",
+    "Curricular units 2nd sem (enrolled)",
+    "Curricular units 2nd sem (evaluations)",
+    "Curricular units 2nd sem (approved)",
+    "Curricular units 2nd sem (grade)",
+    "Curricular units 2nd sem (without evaluations)",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP"
+  ],
+  "best_params": {
+    "Logistic Regression": {
+      "C": 1
+    },
+    "Decision Tree": {
+      "criterion": "gini",
+      "max_depth": 5,
+      "min_samples_leaf": 15
+    },
+    "kNN": {
+      "n_neighbors": 7,
+      "p": 1,
+      "weights": "uniform"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 1e-09
+    },
+    "Support Vector Machine": {
+      "C": 2,
+      "gamma": "scale"
+    }
+  },
+  "random_state": 8131,
+  "sklearn": "1.6.1",
+  "dataset_name": "full_dataset",
+  "dataset_source": "full_dataset.csv",
+  "python": "3.13.18"
+}
